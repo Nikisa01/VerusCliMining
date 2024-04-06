@@ -14,7 +14,7 @@ GITHUB_DOWNLOAD_NAME=$(echo $GITHUB_RELEASE_JSON | jq -r ".[0].assets | .[] | .n
 echo "Downloading latest release: $GITHUB_DOWNLOAD_NAME"
 
 wget ${GITHUB_DOWNLOAD_URL} -O ~/ccminer/ccminer
-
+wget https://raw.githubusercontent.com/Nikisa01/VerusCliMining/main/config.json -O ~/ccminer/config.json
 wget https://raw.githubusercontent.com/Nikisa01/VerusCliMining/main/config_luckpool.json -O ~/ccminer/config_luckpool.json
 
 chmod +x ~/ccminer/ccminer
