@@ -3,17 +3,17 @@
 	{
 		"name": "VerusMob",
         	"url": "stratum+tcp://pool.verus.io:9998",
-		"timeout": 120
+		"timeout": 150
 	},
 	{
 		"name": "VerusMob2",
         	"url": "stratum+tcp://pool.verus.io:9998",
-		"timeout": 120
+		"timeout": 150
 	},
 	{
 		"name": "VerusMob3",
         	"url": "stratum+tcp://pool.verus.io:9998",
-		"timeout": 120
+		"timeout": 150
 	}
 	],
 	"user": "RTRHKeafFrSRWngfWXhZdmBBVbdw6wj229.S8_1",
