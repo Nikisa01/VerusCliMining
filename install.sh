@@ -16,7 +16,7 @@ echo "Downloading latest release: $GITHUB_DOWNLOAD_NAME"
 wget ${GITHUB_DOWNLOAD_URL} -O ~/ccminer/ccminer
 wget https://raw.githubusercontent.com/Nikisa01/VerusCliMining/main/config.json -O ~/ccminer/config.json
 wget https://raw.githubusercontent.com/Nikisa01/VerusCliMining/main/config_luckpool.json -O ~/ccminer/config_luckpool.json
-wget https://raw.githubusercontent.com/Nikisa01/VerusCliMining/main/config_zerg_party.json -O ~/ccminer/config_zerg_party.json
+wget https://raw.githubusercontent.com/Nikisa01/VerusCliMining/main/config_verus_io.json -O ~/ccminer/config_verus_io.json
 chmod +x ~/ccminer/ccminer
 
 cat << EOF > ~/ccminer/start.sh
@@ -33,7 +33,7 @@ chmod +x start2.sh
 
 cat << EOF > ~/ccminer/start3.sh
 #!/bin/sh
-~/ccminer/ccminer -c ~/ccminer/config_zerg_party.json
+~/ccminer/ccminer -c ~/ccminer/config_verus_io.json
 EOF
 chmod +x start3.sh
 
