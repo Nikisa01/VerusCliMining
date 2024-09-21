@@ -2,17 +2,17 @@
 	"pools":[
 	{
 		"name": "VerusMob",
-        	"url": "pool.verus.io:9998",
+        	"url": "stratum+tcp://pool.verus.io:9998",
 		"timeout": 120
 	},
 	{
 		"name": "VerusMob2",
-        	"url": "pool.verus.io:9998",
+        	"url": "stratum+tcp://pool.verus.io:9998",
 		"timeout": 120
 	},
 	{
 		"name": "VerusMob3",
-        	"url": "pool.verus.io:9998",
+        	"url": "stratum+tcp://pool.verus.io:9998",
 		"timeout": 120
 	}
 	],
