@@ -1,27 +1,28 @@
+
 {
-	"pools":[
-	{
-		"name": "VerusMob",
-        	"url": "stratum+tcp://pool.verus.io:9998",
-		"timeout": 150
-	},
-	{
-		"name": "VerusMob2",
-        	"url": "stratum+tcp://pool.verus.io:9998",
-		"timeout": 150
-	},
-	{
-		"name": "VerusMob3",
-        	"url": "stratum+tcp://pool.verus.io:9998",
-		"timeout": 150
-	}
-	],
-	"user": "RTRHKeafFrSRWngfWXhZdmBBVbdw6wj229.S8_1",
-	"pass": "x",
-	"algo": "verus",
-	"threads": 8,
-	"cpu-priority": 1,
-	"retry-pause": 5,
-	"api-allow": "192.168.31.0/16",
-	"api-bind": "0.0.0.0:4068"
+  "pools":[
+  {
+    "name": "Luckpool",
+          "url": "stratum+tcp://pool.verus.io:9998",
+    "timeout": 150
+  },
+  {
+    "name": "Luckpool2",
+          "url": "stratum+tcp://pool.verus.io:9998",
+    "timeout": 150
+  },
+  {
+    "name": "Luckpool3",
+          "url": "stratum+tcp://pool.verus.io:9998",
+    "timeout": 150
+  }
+  ],
+  "user": "RH6FWaX667terfCKZQrFrB8LQx8XoS8Y6U.Xiaomi1",
+  "pass": "x",
+  "algo": "verus",
+  "threads": 8,
+  "cpu-priority": 1,
+  "retry-pause": 5,
+  "api-allow": "192.168.1.0/16",
+  "api-bind": "0.0.0.0:4068"
 }
