@@ -1,23 +1,22 @@
-
 {
   "pools":[
   {
-    "name": "Luckpool",
+    "name": "verusl",
           "url": "stratum+tcp://pool.verus.io:9998",
     "timeout": 150
   },
   {
-    "name": "Luckpool2",
+    "name": "verusl2",
           "url": "stratum+tcp://pool.verus.io:9998",
     "timeout": 150
   },
   {
-    "name": "Luckpool3",
+    "name": "verusl3",
           "url": "stratum+tcp://pool.verus.io:9998",
     "timeout": 150
   }
   ],
-  "user": "RH6FWaX667terfCKZQrFrB8LQx8XoS8Y6U.Xiaomi1",
+  "user": "RH6FWaX667terfCKZQrFrB8LQx8XoS8Y6U.S8_1",
   "pass": "x",
   "algo": "verus",
   "threads": 8,
